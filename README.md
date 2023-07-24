@@ -1,2 +1,2 @@
 # alx-backend-javascript
-Backend Specilaizations ALX
+Backend Specializations ALX
