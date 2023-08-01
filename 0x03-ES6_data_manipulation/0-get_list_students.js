@@ -3,11 +3,7 @@
  * */
 
 export default function getListStudents() {
-	const arr = new Array();
-
-	arr.push({id:1, fistName:'Guillaume', location: 'San Francisco'});
-	arr.push({id:2, fistName:'James', location: 'Columbia'});
-	arr.push({id:5, fistName:'Serena', location: 'San Francisco'});
-
-	return arr;
+  return [{ id: 1, fistName: 'Guillaume', location: 'San Francisco' },
+    { id: 2, fistName: 'James', location: 'Columbia' },
+    { id: 5, fistName: 'Serena', location: 'San Francisco' }];
 }
